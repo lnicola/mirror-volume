@@ -5,5 +5,5 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-alsa = "0.6.0"
-log = "0.4.17"
+alsa = "0.7"
+log = "0.4"
