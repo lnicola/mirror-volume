@@ -13,9 +13,7 @@ You'll need to install the ALSA development package (`libasound2-dev`, `alsa-lib
 
 # Configuration
 
-Not available yet.
-It uses the `Speaker` and `Headphone` controls of the `hw:0` device.
-This can be changed in `src/main.rs`.
+The `Speaker` and `Headphone` controls of the `hw:0` card are used by default, but you can change them using the `MV_CARD_NAME`, `MV_SOURCE_SELEM` and `MV_TARGET_SELEM` environment variables.
 
 # Installation
 
